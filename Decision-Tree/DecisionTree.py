@@ -25,7 +25,7 @@ class Node:
 
 class DecisionTree:
     """
-    A node class for a decision tree.
+    Decision Tree Classifier Class
     """
     def __init__(self, min_samples_split=2, max_depth=100, n_features=None):
         self.min_samples_split=min_samples_split

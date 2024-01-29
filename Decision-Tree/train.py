@@ -3,7 +3,6 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 from DecisionTree import DecisionTree
 
-# data = datasets.load_breast_cancer()
 data = datasets.load_iris()
 X, y = data.data, data.target
 

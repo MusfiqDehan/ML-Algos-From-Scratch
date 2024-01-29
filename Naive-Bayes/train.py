@@ -19,4 +19,9 @@ nb = NaiveBayes()
 nb.fit(X_train, y_train)
 predictions = nb.predict(X_test)
 
-print("Naive Bayes classification accuracy", accuracy(y_test, predictions))
+acc = accuracy(y_test, predictions)
+acc_percent = round(acc * 100, 2)
+print(f"Accuracy: {acc_percent}%")
+
+
+
